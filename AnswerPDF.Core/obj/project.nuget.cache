@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "ipw1SLzeePxBKzfjHZGChNfnw37vWqYMvmTgkI+JmTalTll6lovPzKN6c9IqN+9esUW39JH4iceWnpuIg2mNsA==",
+  "dgSpecHash": "DwvL7+eDvZVvGd51NyDxiVvz9BCeYlqKKA599KwFgfeN9dMnhPPugDwMZYdpkqw7FEnHlIk9s6kkDkfRyk83iQ==",
   "success": true,
   "projectFilePath": "S:\\AnswerPDF\\AnswerPDF\\AnswerPDF.Core\\AnswerPDF.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Leonardo\\.nuget\\packages\\harfbuzzsharp\\2.8.2.3\\harfbuzzsharp.2.8.2.3.nupkg.sha512",
+    "C:\\Users\\Leonardo\\.nuget\\packages\\harfbuzzsharp.nativeassets.macos\\2.8.2.3\\harfbuzzsharp.nativeassets.macos.2.8.2.3.nupkg.sha512",
+    "C:\\Users\\Leonardo\\.nuget\\packages\\harfbuzzsharp.nativeassets.win32\\2.8.2.3\\harfbuzzsharp.nativeassets.win32.2.8.2.3.nupkg.sha512",
+    "C:\\Users\\Leonardo\\.nuget\\packages\\questpdf\\2022.12.1\\questpdf.2022.12.1.nupkg.sha512",
+    "C:\\Users\\Leonardo\\.nuget\\packages\\skiasharp\\2.88.3\\skiasharp.2.88.3.nupkg.sha512",
+    "C:\\Users\\Leonardo\\.nuget\\packages\\skiasharp.harfbuzz\\2.88.3\\skiasharp.harfbuzz.2.88.3.nupkg.sha512",
+    "C:\\Users\\Leonardo\\.nuget\\packages\\skiasharp.nativeassets.macos\\2.88.3\\skiasharp.nativeassets.macos.2.88.3.nupkg.sha512",
+    "C:\\Users\\Leonardo\\.nuget\\packages\\skiasharp.nativeassets.win32\\2.88.3\\skiasharp.nativeassets.win32.2.88.3.nupkg.sha512"
+  ],
   "logs": []
 }
