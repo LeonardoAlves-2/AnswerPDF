@@ -6,7 +6,7 @@ using QuestPDF.Infrastructure;
 
 namespace AnswerPDF.Core.Modules.Drawings;
 
-public class DrawTable : GenericDrawModel
+public class DrawTable : IGenericDrawModel
 {
     private readonly TableModel Table;
     public DrawTable(TableModel table)
@@ -14,7 +14,7 @@ public class DrawTable : GenericDrawModel
         Table = table;
     }
 
-    public IContainer Draw(IContainer container)
+    public new IContainer Draw(IContainer container)
     {
         container.Table(table =>
         {

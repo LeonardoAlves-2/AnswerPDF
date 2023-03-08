@@ -4,14 +4,15 @@ using QuestPDF.Infrastructure;
 
 namespace AnswerPDF.Core.Modules;
 
-public class CreateDocument
+public static class CreateDocument
 {
-    public void DrawDocument(IDocumentContainer documentContainer, params GenericDrawModel[] drawModels)
+    public static void DrawDocument(this IDocumentContainer documentContainer, params IGenericDrawModel[] drawModels)
     {
         documentContainer.Page(page =>
         {
             foreach (var drawModel in drawModels)
             {
+                page.Content().DrawExtension(drawModel);
             }
         });
     }

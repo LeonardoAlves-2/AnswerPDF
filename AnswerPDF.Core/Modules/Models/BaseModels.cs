@@ -1,8 +1,18 @@
-﻿using QuestPDF.Infrastructure;
+﻿using QuestPDF.Fluent;
+using QuestPDF.Infrastructure;
+using System;
 
 namespace AnswerPDF.Core.Modules.Models;
 
-public interface GenericDrawModel
+public interface IGenericDrawModel
 {
-    public IContainer Draw(IContainer container);
+    IContainer Draw(IContainer container);
+}
+
+public static class DrawModelExtensions
+{
+    public static IContainer DrawExtension(this IContainer container, IGenericDrawModel model)
+    {
+        return model.Draw(container);
+    }
 }
